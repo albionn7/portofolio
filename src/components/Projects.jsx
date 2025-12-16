@@ -35,7 +35,6 @@ const Projects = () => {
             transition={{ type: "spring", stiffness: 120 }}
             className="flex flex-wrap lg:justify-center gap-8 p-4 rounded-xl"
           >
-            {/* Image */}
             <motion.div
               className="w-full lg:w-1/4 overflow-hidden rounded-xl shadow-lg"
               whileHover={{ scale: 1.03 }}
@@ -50,7 +49,6 @@ const Projects = () => {
               />
             </motion.div>
 
-            {/* Text */}
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 text-2xl font-semibold bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
                 {project.title}
@@ -72,7 +70,6 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* View Project Button */}
               {project.link && (
                 <motion.a
                   href={project.link}

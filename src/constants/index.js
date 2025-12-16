@@ -3,55 +3,62 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `  "I build modern, fast, and user-focused web applications with a passion for clean code and elegant design.";
+`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
-export const EXPERIENCES = [
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Bachelor's Degree – Computer Science & Engineering",
+    company: "University of Information Science and Technology",
+    year: "Oct 2020 – Dec 2024",
+    description:
+      "Graduated, Focus on software engineering, algorithms, and modern web development.",
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Science Program",
+    company: "Yahya Kemal College",
+    year: "Sep 2016 – May 2020",
+    description: "Completed science-focused curriculum",
   },
 ];
 
-export const EDUCATION = [
+export const EXPERIENCES = [
   {
-    year: "2021 - Present",
-    role: "Web Design",
-    company: "Spain - Institute",
-    description: `Studied modern UI/UX principles, responsive design, and visual communication.`,
-    technologies: ["UX", "UI Design", "Figma"],
+    role: "Full Stack Engineer – Internship",
+    company: "Inspire11",
+    year: "Mar 2025 – Jun 2025",
+    description:
+      "Built full-stack features using modern JavaScript tooling, collaborating on real-world engineering tasks.",
   },
   {
-    year: "2018 - 2020",
-    role: "Web Development",
-    company: "Spain - Institute",
-    description: `Learned full-stack development fundamentals including HTML, CSS, JS and backend basics.`,
-    technologies: ["HTML", "CSS", "JavaScript"],
+    role: "Freelance Web Developer",
+    company: "Freelance",
+    year: "Feb 2023 – Aug 2024",
+    description:
+      "Designed and developed custom websites, dashboards, and applications using React, Node.js, and modern web technologies.",
+  },
+  {
+    role: "Freelance Editor",
+    company: "Freelance",
+    year: "Sep 2022 – Dec 2022",
+    description:
+      "Worked on content editing projects using Adobe Premiere Pro and Illustrator.",
+  },
+  {
+    role: "Junior WordPress & Frontend Developer",
+    company: "Eagle IT Solutions Struga",
+    year: "Feb 2022 – Sep 2022",
+    description:
+      "Built and maintained WordPress sites and implemented front-end functionality using HTML, CSS, and JavaScript.",
+  },
+  {
+    role: "Participant – Engineering Incubator Program",
+    company: "KT Ruby Engineering Incubator Program",
+    year: "Nov 2021 – May 2022",
+    description:
+      "Completed a 7-month engineering development program covering programming fundamentals and web development.",
   },
 ];
 
