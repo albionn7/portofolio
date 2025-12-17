@@ -115,19 +115,6 @@ const Experience = () => {
                       <p className="text-gray-500">{item.company}</p>
                       <p className="text-gray-400 text-sm">{item.year}</p>
                       <p className="text-gray-500 mt-2">{item.description}</p>
-
-                      {/* Show Proof Button — EDUCATION side */}
-                      {item.company === "Inspire11" && (
-                        <button
-                          onClick={() => {
-                            setProofImage(internshipPic);
-                            setShowProof(true);
-                          }}
-                          className="mt-3 text-sm px-4 py-2 rounded-lg bg-white/10 border border-white/20 hover:bg-white/20 transition"
-                        >
-                          Show Proof
-                        </button>
-                      )}
                     </div>
 
                     <div className="absolute left-1/2 -translate-x-1/2 top-1 w-4 h-4 bg-gradient-to-r from-purple-400 to-pink-300 rounded-full shadow-md"></div>
@@ -147,7 +134,8 @@ const Experience = () => {
                       <p className="text-gray-500 mt-2">{item.description}</p>
 
                       {/* Show Proof Button — EXPERIENCE side */}
-                      {item.company === "Inspire11" && (
+                      {item.company ===
+                        "Inspire11 — Tetovo, North Macedonia" && (
                         <button
                           onClick={() => {
                             setProofImage(internshipPic);

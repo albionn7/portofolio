@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
 
-// Animation variants
 const container = (delay = 0) => ({
   hidden: { x: -50, opacity: 0 },
   visible: {
@@ -21,9 +20,8 @@ const Hero = () => {
   const words = HERO_CONTENT.split(" ");
 
   return (
-    <section className="border-b border-neutral-900 py-10">
+    <section className="border-b border-neutral-900 md:py-10 py-0">
       <div className="flex flex-wrap lg:flex-nowrap items-center lg:justify-between gap-10">
-        {/* Text Section */}
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
           <motion.h1
             variants={container(0)}

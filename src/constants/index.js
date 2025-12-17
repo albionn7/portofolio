@@ -1,12 +1,14 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import gatherly from "../assets/projects/gatherly.png";
+import transactionApp from "../assets/projects/transactions.png";
+import apiTransactions from "../assets/projects/api-transactions.png";
+import weatherApp from "../assets/projects/weather-app.png";
+import internshipPic from "../assets/projects/internship-proof.jpg";
 
-export const HERO_CONTENT = `  "I build modern, fast, and user-focused web applications with a passion for clean code and elegant design.";
-`;
+export const HERO_CONTENT =
+  "I build modern, fast, and user-focused web applications with a strong focus on clean code and scalable solutions.";
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT =
+  "I am a dedicated Web Developer with over two years of hands-on experience building user-friendly and efficient web applications. I have worked with modern technologies such as React, TypeScript, Node.js, REST APIs, PostgreSQL, MongoDB, and WordPress. I enjoy collaborating in Agile environments, solving real-world problems, and continuously improving my skills to deliver high-quality digital solutions.";
 
 export const EDUCATION = [
   {
@@ -26,79 +28,69 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    role: "Full Stack Engineer – Internship",
-    company: "Inspire11",
+    role: "Full Stack Engineering Intern",
+    company: "Inspire11 — Tetovo, North Macedonia",
     year: "Mar 2025 – Jun 2025",
     description:
-      "Built full-stack features using modern JavaScript tooling, collaborating on real-world engineering tasks.",
-  },
-  {
-    role: "Freelance Web Developer",
-    company: "Freelance",
-    year: "Feb 2023 – Aug 2024",
-    description:
-      "Designed and developed custom websites, dashboards, and applications using React, Node.js, and modern web technologies.",
-  },
-  {
-    role: "Freelance Editor",
-    company: "Freelance",
-    year: "Sep 2022 – Dec 2022",
-    description:
-      "Worked on content editing projects using Adobe Premiere Pro and Illustrator.",
+      "Built responsive UI components using React, integrated ASP.NET REST APIs, and collaborated in an Agile team using Jira.",
+    proof: internshipPic,
   },
   {
     role: "Junior WordPress & Frontend Developer",
-    company: "Eagle IT Solutions Struga",
-    year: "Feb 2022 – Sep 2022",
+    company: "Eagle IT — Struga, North Macedonia",
+    year: "May 2022 – Sep 2024",
     description:
-      "Built and maintained WordPress sites and implemented front-end functionality using HTML, CSS, and JavaScript.",
+      "Developed and maintained WordPress websites from scratch, implemented frontend features using HTML, CSS, JavaScript, and ensured responsive cross-device design.",
   },
   {
-    role: "Participant – Engineering Incubator Program",
-    company: "KT Ruby Engineering Incubator Program",
+    role: "Participant — KT Ruby Engineering Incubator Program",
+    company: "Kennedy Technology",
     year: "Nov 2021 – May 2022",
     description:
-      "Completed a 7-month engineering development program covering programming fundamentals and web development.",
+      "Completed a 7-month program focused on frontend and backend development with Ruby on Rails and team-based projects.",
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Event Management Platform",
+    image: gatherly,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    link: "sdkoads/asdad",
+      "A full-stack event management platform built with modern web technologies, featuring event creation, management, and user interaction.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://github.com/albionn7/event_management",
+    featured: true,
+    live: "https://event-management-gamma-plum.vercel.app/",
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Transaction App",
+    image: transactionApp,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "sdkoads/asdad",
+      "A frontend application for managing and tracking transactions with a clean and responsive UI.",
+    technologies: ["React", "Vite", "JavaScript"],
+    link: "https://github.com/albionn7/Transaction_App",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Transactions API",
+    image: apiTransactions,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link: "sdkoads/asdad",
+      "A RESTful API built with ASP.NET for handling transaction data and backend business logic.",
+    technologies: ["ASP.NET", "REST API"],
+    link: "https://github.com/albionn7/api_transactions",
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Weather App",
+    image: weatherApp,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "sdkoads/asdad",
+      "A weather application that fetches and displays real-time weather data using an external API.",
+    technologies: ["React", "API Integration"],
+    link: "https://github.com/albionn7/weather-app",
+    live: "https://albionn7.github.io/weather-app/",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Struga, North Macedonia",
+  phoneNo: "+387 189 3718",
+  email: "albionnazari@hotmail.com",
 };

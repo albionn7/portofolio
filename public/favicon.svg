@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AM logo">
+  <rect width="256" height="256" fill="#000000"/>
+  <text
+    x="128"
+    y="128"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+    font-size="96"
+    font-weight="800"
+    letter-spacing="-0.06em"
+  >
+    <tspan fill="#D4D4D4">A</tspan>
+    <tspan fill="#66A0FD">M</tspan>
+  </text>
+</svg>
