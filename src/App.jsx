@@ -16,7 +16,7 @@ const App = () => {
         {/* <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div> */}
       </div>
 
-      <div className="container mx-auto px-8 md:px-35 relative z-10">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
         <Navbar />
         <Hero />
         <About />

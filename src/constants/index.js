@@ -126,6 +126,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Struga, North Macedonia",
-  phoneNo: "+387 189 3718",
-  email: "albionnazari@hotmail.com",
+  phoneNo: "+389 71 893 718",
+  email: "albionmazari@gmail.com",
 };
