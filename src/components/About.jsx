@@ -50,7 +50,7 @@ const About = () => {
         transition={{ delay: 1.5 }}
       >
         <a
-          href="/AlbionMazari-cv.pdf"
+          href="https://albionmazari.site/cv"
           download
           className="px-6 py-3 rounded-xl bg-white/10 border border-white/20 backdrop-blur-md hover:bg-white/20 transition-all duration-300 font-light"
         >
