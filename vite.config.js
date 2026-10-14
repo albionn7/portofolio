@@ -10,7 +10,7 @@ export default defineConfig(async ({ mode }) => ({
   base:
     mode == "development"
       ? undefined
-      : `https://templates.smartlink.mk/${(await slClient.user.me()).userId}/${
+      : `https://templates.smartlink.mk/${(await slClient.user.me()).id}/${
           config.name
         }/${config.version}/`,
 }));
