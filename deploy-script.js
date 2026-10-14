@@ -46,6 +46,7 @@ fs.writeFileSync(
       console.error(`Version ${version} already exists`);
     } else {
       console.error("Failed to publish template");
+      console.error(e);  
     }
   }
 })();

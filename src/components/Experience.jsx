@@ -5,7 +5,6 @@ import { BsBriefcase } from "react-icons/bs";
 import { TbSchool } from "react-icons/tb";
 
 import { motion, AnimatePresence } from "framer-motion";
-console.log("Internship pic:", internshipPic);
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -129,13 +128,24 @@ const Experience = () => {
 
                     <div className="w-1/2 pl-8">
                       <h3 className="font-semibold text-xl">{item.role}</h3>
-                      <p className="text-gray-500">{item.company}</p>
+                      <p className="text-gray-300">{item.company}</p>
+                      {item.location && <p className="mt-1 text-sm text-gray-500">{item.location}</p>}
                       <p className="text-gray-400 text-sm">{item.year}</p>
-                      <p className="text-gray-500 mt-2">{item.description}</p>
+                      {item.link && (
+                        <a href={item.link} target="_blank" rel="noreferrer" className="mt-1 inline-block text-sm text-cyan-300 underline underline-offset-4 hover:text-cyan-200">
+                          smartlink.mk
+                        </a>
+                      )}
+                      {item.bullets ? (
+                        <ul className="mt-3 list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-400">
+                          {item.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
+                        </ul>
+                      ) : (
+                        <p className="text-gray-500 mt-2">{item.description}</p>
+                      )}
 
                       {/* Show Proof Button — EXPERIENCE side */}
-                      {item.company ===
-                        "Inspire11 — Tetovo, North Macedonia" && (
+                      {item.company === "Inspire11" && (
                         <button
                           onClick={() => {
                             setProofImage(internshipPic);
